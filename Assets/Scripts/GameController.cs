@@ -31,16 +31,16 @@ public class GameController : MonoBehaviour
     {
         if (value.started && interaction)
         {
-            print("Hola");
+            print("Hola mundo");
         }
     }
     
     public void SoundUpdateLife()
     {
-        print("Soudn");  
+        print("Aplicar Sonido");  
     }
     public void OnLoseMetodo()
     {
-        print("Perdiste");
+        print("Tu Perdiste");
     }
 }
